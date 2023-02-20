@@ -1,5 +1,12 @@
+import PageHeader from "../../components/PageHeader";
+import { Box } from "@mui/system";
+
 const Dashboard = () => {
-    return <h1>This is dashboard</h1>
+    return (
+        <Box p={2}>
+            <PageHeader title="DASHBOARD" subTitle="Welcome to your dashboard."/>
+        </Box>
+    )
 }
 
 export default Dashboard;

@@ -7,7 +7,10 @@
     "@emotion/styled": "^11.10.6",
     "@fullcalendar/core": "^6.1.4",
     "@fullcalendar/daygrid": "^6.1.4",
+    "@fullcalendar/interaction": "^6.1.4",
     "@fullcalendar/list": "^6.1.4",
+    "@fullcalendar/react": "^6.1.4",
+    "@fullcalendar/resource-timegrid": "^6.1.4",
     "@fullcalendar/timegrid": "^6.1.4",
     "@mui/icons-material": "^5.11.9",
     "@mui/material": "^5.11.9",
@@ -16,11 +19,14 @@
     "@nivo/geo": "^0.80.0",
     "@nivo/line": "^0.80.0",
     "@nivo/pie": "^0.80.0",
+    "formik": "^2.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-pro-sidebar": "^1.0.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
