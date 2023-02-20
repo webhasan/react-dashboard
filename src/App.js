@@ -14,6 +14,7 @@ import Contacts from "./scens/contacts";
 import ProfileForm from "./scens/Form";
 import EventCalender from "./scens/events";
 import Faq from "./scens/faq/Faq";
+import BarChartPage from './scens/bar';
 
 // import Team from "./scens/team";
 // import Invoices from "./scens/invoices";
@@ -44,8 +45,9 @@ const App = () => {
                             <Route path="/contacts" element={<Contacts/>} />
                             <Route path="/invoices" element={<Invoices/>} />
                             <Route path="/add-user" element={<ProfileForm/>} />
-                            <Route path="/events" element={<EventCalender/>}/ >
+                            <Route path="/events" element={<EventCalender/>} />
                             <Route path="/faqs" element={<Faq/>} />
+                            <Route path="/chart" element={<BarChartPage/>} />
                             
                             {/* 
                             <Route path="/invoices" element={<Invoices/>}/>

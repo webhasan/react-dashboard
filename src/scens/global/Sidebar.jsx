@@ -131,6 +131,7 @@ const Sidebar = () => {
                     <Item to="/add-user" icon={PersonOutline} title="User Profile"/>
                     <Item to="/events" icon={EventSeat} title="Events"/>
                     <Item to="/faqs" icon={ QuestionAnswer } title="FAQs"/>
+                    <Item to="/chart" icon={ BarChartOutlined } title="Bar Chart"/>
                 </Menu>
             </ProSidebar>
         </Box>
