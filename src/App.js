@@ -15,6 +15,7 @@ import ProfileForm from "./scens/Form";
 import EventCalender from "./scens/events";
 import Faq from "./scens/faq/Faq";
 import BarChartPage from './scens/bar';
+import PiChartPage from "./scens/pi/PiChartPage";
 
 // import Team from "./scens/team";
 // import Invoices from "./scens/invoices";
@@ -48,6 +49,7 @@ const App = () => {
                             <Route path="/events" element={<EventCalender/>} />
                             <Route path="/faqs" element={<Faq/>} />
                             <Route path="/chart" element={<BarChartPage/>} />
+                            <Route path="/chart-pi" element={<PiChartPage/>} />
                             
                             {/* 
                             <Route path="/invoices" element={<Invoices/>}/>
@@ -67,5 +69,4 @@ const App = () => {
         </ColorModeContext.Provider>
     )
 }
-
 export default App;

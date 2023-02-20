@@ -18,7 +18,8 @@ import {
     Dashboard,
     Menu as MenuIcon,
     EventSeat,
-    QuestionAnswer
+    QuestionAnswer,
+    StackedLineChart
 } from "@mui/icons-material";
 
 
@@ -132,6 +133,8 @@ const Sidebar = () => {
                     <Item to="/events" icon={EventSeat} title="Events"/>
                     <Item to="/faqs" icon={ QuestionAnswer } title="FAQs"/>
                     <Item to="/chart" icon={ BarChartOutlined } title="Bar Chart"/>
+                    <Item to="/chart-pi" icon={ PieChartOutline } title="PI Chart"/>
+                    <Item to="/chart-line" icon={ StackedLineChart } title="Line Chart"/>
                 </Menu>
             </ProSidebar>
         </Box>
