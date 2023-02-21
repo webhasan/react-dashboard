@@ -5,7 +5,7 @@ import LineChart from "../../components/LineChart";
 const LineChartPage = () => {
     return (
         <Box p={2}>
-            <PageHeader  title="Pi Chart" subTitle="Example of responsive PI chart"/>
+            <PageHeader  title="Line Chart" subTitle="Example of responsive Line chart"/>
             <Box height="75vh">
                 <LineChart/>
             </Box>
