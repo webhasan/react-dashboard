@@ -51,7 +51,7 @@ const Sidebar = () => {
       <ProSidebar
         rootStyles={{
           height: "100%",
-          borderColor: colors.primary[300],
+          borderColor: 'transparent',
           [".ps-sidebar-container"]: {
             background: colors.primary[400],
           },

@@ -1,2 +1,3 @@
-#React Admin Dashboard
-Full featured admin dashboard using React JS and Material UI
+### React Admin Dashboard
+React Admin Dashboard
+Live Demo: https://dashboard-99.netlify.app/
